@@ -15,6 +15,8 @@
 		95D915BC1EB03ADB00DCAC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D915BA1EB03ADB00DCAC92 /* LaunchScreen.storyboard */; };
 		95D915C71EB03ADB00DCAC92 /* UITableViewHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D915C61EB03ADB00DCAC92 /* UITableViewHelperTests.m */; };
 		95D915D21EB03ADB00DCAC92 /* UITableViewHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D915D11EB03ADB00DCAC92 /* UITableViewHelperUITests.m */; };
+		95D915E31EB03AE600DCAC92 /* UITableViewProtocolHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D915E01EB03AE600DCAC92 /* UITableViewProtocolHelper.m */; };
+		95D915E41EB03AE600DCAC92 /* UITableView+ProtocolConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D915E21EB03AE600DCAC92 /* UITableView+ProtocolConfigure.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		95D915CD1EB03ADB00DCAC92 /* UITableViewHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D915D11EB03ADB00DCAC92 /* UITableViewHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewHelperUITests.m; sourceTree = "<group>"; };
 		95D915D31EB03ADB00DCAC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D915DF1EB03AE600DCAC92 /* UITableViewProtocolHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewProtocolHelper.h; sourceTree = "<group>"; };
+		95D915E01EB03AE600DCAC92 /* UITableViewProtocolHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewProtocolHelper.m; sourceTree = "<group>"; };
+		95D915E11EB03AE600DCAC92 /* UITableView+ProtocolConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ProtocolConfigure.h"; sourceTree = "<group>"; };
+		95D915E21EB03AE600DCAC92 /* UITableView+ProtocolConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ProtocolConfigure.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		95D915AB1EB03ADB00DCAC92 /* UITableViewHelper */ = {
 			isa = PBXGroup;
 			children = (
+				95D915DF1EB03AE600DCAC92 /* UITableViewProtocolHelper.h */,
+				95D915E01EB03AE600DCAC92 /* UITableViewProtocolHelper.m */,
+				95D915E11EB03AE600DCAC92 /* UITableView+ProtocolConfigure.h */,
+				95D915E21EB03AE600DCAC92 /* UITableView+ProtocolConfigure.m */,
 				95D915AF1EB03ADB00DCAC92 /* AppDelegate.h */,
 				95D915B01EB03ADB00DCAC92 /* AppDelegate.m */,
 				95D915B21EB03ADB00DCAC92 /* ViewController.h */,
@@ -276,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D915E41EB03AE600DCAC92 /* UITableView+ProtocolConfigure.m in Sources */,
 				95D915B41EB03ADB00DCAC92 /* ViewController.m in Sources */,
+				95D915E31EB03AE600DCAC92 /* UITableViewProtocolHelper.m in Sources */,
 				95D915B11EB03ADB00DCAC92 /* AppDelegate.m in Sources */,
 				95D915AE1EB03ADB00DCAC92 /* main.m in Sources */,
 			);
