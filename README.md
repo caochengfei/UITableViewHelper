@@ -1,7 +1,7 @@
 # UITableViewHelper
 tableview链式实现数据源跟代理
 ####  使用说明：
-```
+``` objc
     __weak __typeof(&*self)weakSelf = self;
     [weakSelf.tableview configureHelper:^   (UITableViewProtocolHelper *helper) {
         helper.bindTableView(weakSelf.tableview, [UITableViewCell class], NO, @"cell").heightForRow(^CGFloat(NSIndexPath *indexPath) {
